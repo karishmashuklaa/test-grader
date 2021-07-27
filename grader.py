@@ -46,5 +46,10 @@ if len(cnts) > 0:
 # original and grayscale image to obtain a top-down
 # birds eye view of the paper
 paper = four_point_transform(image, docCnt.reshape(4, 2))
-gray_img = four_point_transform(gray, docCnt.reshape(4, 2))
+gray_paper = four_point_transform(gray, docCnt.reshape(4, 2))
 
+# using Otsu's thresholding method to binarize gray_paper
+thresh = cv2.threshold(gray_paper, 0, 255,
+                       cv2.THRESH_BINARY_INV | cv2.THRESH_OTSU)[1]
+cv2.imshow("Test Grader", thresh)
+cv2.waitKey(0)
