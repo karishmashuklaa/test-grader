@@ -1,6 +1,6 @@
 * A simple bubble sheet scanner and test grader using computer vision and image processing techniques.
 * Implemented Optical Mark Recognition (OMR) methods which facilitate capturing of human-marked 
-documents and automatical analysis of the results.
+documents and automatic analysis of the results.
 
 ## Output Screenshots:
 
