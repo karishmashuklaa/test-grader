@@ -3,6 +3,7 @@
 documents and automatic analysis of the results.
 
 ## Output Screenshots:
+The students didn't study well I guess! 😝
 
 <table>
   <tr>
