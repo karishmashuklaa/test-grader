@@ -1,9 +1,9 @@
 * A simple bubble sheet scanner and test grader using computer vision and image processing techniques.
 * Implemented Optical Mark Recognition (OMR) methods which facilitate capturing of human-marked 
 documents and automatic analysis of the results.
+* Uses Python and OpenCV.
 
 ## Output Screenshots:
-The students didn't study well I guess! 😝
 
 <table>
   <tr>
@@ -17,4 +17,5 @@ The students didn't study well I guess! 😝
     <td><img src="img/result_03.png" width=280 height=480></td>
   </tr>
  </table>
+ All test sheets are available in the img folder.
  
